@@ -4,6 +4,8 @@ tags: #CVSKILLS
 
 Este repositorio intentará abarcar todas las areas de la informática las cuales entran en el concurso de CV-SKILLS.
 
+PDF:  [PDF-ANTECEDENTES](PP39_TIC_Administración_de_Sistemas_en_Red_2022.pdf)
+
 ---
 
 ## CONFIGURACIÓN EN LINUX SERVER
