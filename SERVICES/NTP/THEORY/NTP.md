@@ -1,0 +1,1 @@
+https://insights.sei.cmu.edu/blog/best-practices-for-ntp-services/
