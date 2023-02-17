@@ -1,5 +1,7 @@
 tags: #CVSKILLS 
 
+![](logo.png)
+
 # INTRODUCCIÓN
 
 Este repositorio intentará abarcar todas las areas de la informática las cuales entran en el concurso de CV-SKILLS.
