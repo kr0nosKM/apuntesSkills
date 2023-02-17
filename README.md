@@ -17,11 +17,11 @@ PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 - Acceso remoto (SSH)
 - NAT
 - Firewall (nftables)
-- [[cv-skills-OLD/SERVICES/DHCP/THEORY/DHCP|DHCP]]
-- [[apuntesSkills/SERVICES/DNS/THEORY/DNS]]
+- [DHCP](SERVICES/DHCP/THEORY/DHCP.md)
+- [DNS](SERVICES/DNS/THEORY/DNS/DNS.md)
 - HTTP (apache2/nginx)
 - Mail Server
-- Securizar servicios con certificados ([[apuntesSkills/SERVICES/CERTIFICADOS/CA]] y SSL / TLS)
+- Securizar servicios con certificados ([CA](SERVICES/CERTIFICADOS/CA.md) y SSL/TLS)
 - Archivos Compartidos (SAMBA)
 - LDAP (openldap/slapd)
 - Backup (rsync)
