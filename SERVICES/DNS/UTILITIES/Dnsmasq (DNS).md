@@ -1,6 +1,6 @@
 TAGS: #dns #dnsmasq #services #utilities 
 
-CONNECTION WITH: [[DNS-CACHING]]
+CONNECTION WITH: [[1CFS/SERVICES/DNS/THEORY/DNS-CACHING]]
 
 MAN-PAGE: https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
 BASIC FUNCTIONALITY PAGE: https://geekflare.com/setup-dns-caching-dnsmasq-on-ubuntu/

@@ -14,7 +14,7 @@ TTL (time to live) es el límite de saltos (hops) entre nodos que tiene un paque
 
 _FUNCIONAMIENTO_:
 
-![[Pasted image 20230120224549.png]]
+![[apuntesSkills/SERVICES/DNS/THEORY/Pasted image 20230120224549.png]]
 
 LINKS FOR INFO:
 https://www.cloudns.net/blog/dns-cache-explained/
