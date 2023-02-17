@@ -21,5 +21,3 @@ Es el predecesor del antiguo **IPTABLES**
 
 `POSTROUTING`: Paquetes que están a punto de salir de la máquina
 
-![](Pasted%20image%2020230217175140.png)
-

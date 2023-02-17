@@ -1,4 +1,4 @@
-TAGS: #DHCP #services #utilities #dnsmasq 
+TAGS: #DHCP #linux
 
 Como sabemos Dnsmasq también es un servicio DHCP, el cual ofrece IPs con un rango en específco entre muchísimas otras opciones. De hecho esta utilidad tiene gran cantidad de este tipo de opciones.
 
