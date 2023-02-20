@@ -4,7 +4,7 @@ tags: #CVSKILLS
 
 # INTRODUCCIÓN
 
-Este repositorio intentará abarcar todas las areas de la informática las cuales entran en el concurso de CV-SKILLS.
+Este repositorio intentará abarcar todas las areas de la informática las cuales entran en el campeonato de CV-SKILLS.
 
 PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 
