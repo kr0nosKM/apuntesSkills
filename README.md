@@ -57,6 +57,6 @@ PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 
 ## CONFIGURACIÓN DE REDES
 
-[Apuntes Cisco](CISCO/intro-cisco)
+[Apuntes Cisco](CISCO/intro-cisco.md)
 
 `BY: Miguel García Miró`
