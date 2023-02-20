@@ -53,4 +53,10 @@ PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 - Securizar servicios con certificados (CA y SSL/TLS)
 - Cifrado de discos
 
+---
+
+## CONFIGURACIÓN DE REDES
+
+[Apuntes Cisco](CISCO/intro-cisco)
+
 `BY: Miguel García Miró`
