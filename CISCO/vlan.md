@@ -11,7 +11,37 @@ Estándar que define las VLANs: **IEEE 802.1q.**
 ### **FUNCIONES PRINCIPALES**
 - Separar subredes IPv4
 - Separar redes físicas diferentes
-- 
+
+## REDES SEGMENTADAS CON ==ROUTERS==
+
+>Las redes basadas en routers eran bastante comunes antes de la estandarización de las VLANS, aunque todavía se emplea en algunos lugares
+
+>**FUNCIONES NECESARIAS DE LOS ROUTERS**
+> - Separan diferentes redes lógicas, las diferentes redes IP
+> - Las difusiones quedan limitadas dentro de una subred IP
+> - Control de comunicaciones
+
+>**==DESVENTAJAS==**
+> - Además de interconectar redes IP, están realizando función de acceso a la red a los equipos finales
+> - El control del tráfico de la red está distribuido entre los diferentes routers, esto **añade** bastante dificultad en la administración _(Puede ser solucionado con un **router CENTRAL**)_
+> - La pertenencia a una subred IP determinada depende de la ubicación física
+> 	- **EJEMPLO**:
+> 	![](routersSegmentacion.png)
+> 	_PC5 forma parte del dpt. administración, pero por causas organizativas, se tiene que ubicar físicamente lejos del switch de acceso a ese departamento. ¿Cómo se conectaría a esa red?_
+> 		
+> 	- Con un cable MUY largo (como está muy lejos tendría que ser fibra óptica y ponerlo en algún lugar seguro, etc.)
+> 	- Si lo conectamos al switch 3 tendría que pertenecer a la subred IP de almacén
+> 	==Este **problema lo viene a solucionar las VLANS** (a parte de muchos otros más)==
+> 
+
+## REDES SEGMENTADAS CON VLANS
+
+>![](vlansSegmentacion.png)
+>
+>- Los **switches** dan acceso a la rede a los equipos finales, y segmentan la red en subredes lógicas
+>- La ubicación física de un equipo **NO IMPORTA**, porque no condiciona su pertenencia a una determinada subred lógica
+>- El router r6 controlará la conectividad entre las subredes lógicas
+
 
 ## TIPOS DE INTERFACES EN VLANs
 
