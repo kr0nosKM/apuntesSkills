@@ -6,13 +6,20 @@
 
 Las VLANs se configuran siempre en los SWITCHES.
 
+Estándar que define las VLANs: **IEEE 802.1q.**
+
+### **FUNCIONES PRINCIPALES**
+- Separar subredes IPv4
+- Separar redes físicas diferentes
+- 
+
 ## TIPOS DE INTERFACES EN VLANs
 
 - ACCESS (puerto de acceso)
 - TRUNK   (puerto troncal)
 
 ### ACCESS
-- Hay que **indicar** a **que interfaz** pertenecen
+- Hay que **indicar** a **que interfaz** ==**pertenecen**==
 - Todas las PDUs que lleguen a un puerto access, serán **etiquetadas** con la VLAN configurada en el **puerto / interfaz**
 - Las PDUs que salgan por un puerto de **ACCESO** serán **des**etiquetadas. Se quedarán según el formato estándar (sin VLAN) para que los dispositivos finales la puedean procesar
 - Peticiones **UNICAST**: Cuando llega a un puerto de acceso, la PDU se etiqueta con la VLAN corrrespondiente
@@ -29,3 +36,12 @@ Las VLANs se configuran siempre en los SWITCHES.
 	- La PDU es reenviada por todos los puertos asociados a la VLAN de la PDU, de acceso y troncales que estén asociados o permital la VLAN de la pdu
 
 
+
+## ==BUENAS PRÁCTICAS==
+
+1. Dejar la **Default VLAN** SIN puertos asociados 
+2. **Desactivar** los puertos no utilizados
+3. Crear una **VLAN Black Hole** y asociarle los **puertos que no se están utilizando**
+4. Establecer una **VLAN diferente de la 1** para ==**Administración del switch**==
+5. Establecer una **VLAN diferente de la 1** como ==**VLAN nativa**==
+6. Establecer la **misma VLAN nativa** en los ==**dos extremos**==  **de un enlace trunk**
