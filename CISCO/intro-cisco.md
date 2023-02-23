@@ -13,7 +13,7 @@ En este apartado explicaré todo lo referente al apartado de CISCO, aunque en es
 - Protocolo ARP
 - Capa de transporte: Direccionamiento de puertos, segmentos
 - SEGURIDAD BÁSICA de switch y router: Configuración y encriptación de contraseñas, SSH
-- [VLAN](vlan.md): Definición, configuración, enlaces troncales, enrutamiento inter-VLAN, DTP
+- [VLAN](VLAN.md): Definición, configuración, enlaces troncales, enrutamiento inter-VLAN, DTP
 - STP así como sus variantes, PVST+, RSTP, PVST+ rápido
 - EtherChannel: Configuración y verificación, PAgP, LACP
 - DHCPv4: configuración de cliente y router como servidor.
