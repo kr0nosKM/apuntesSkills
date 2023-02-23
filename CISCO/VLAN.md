@@ -26,6 +26,7 @@ Estándar que define las VLANs: **IEEE 802.1q.**
 > - El control del tráfico de la red está distribuido entre los diferentes routers, esto **añade** bastante dificultad en la administración _(Puede ser solucionado con un **router CENTRAL**)_
 > - La pertenencia a una subred IP determinada depende de la ubicación física
 > 	- **EJEMPLO**:
+> 	
 > 	![](img/routersSegmentacion.png)
 > 	_PC5 forma parte del dpt. administración, pero por causas organizativas, se tiene que ubicar físicamente lejos del switch de acceso a ese departamento. ¿Cómo se conectaría a esa red?_
 > 		
