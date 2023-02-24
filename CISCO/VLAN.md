@@ -4,6 +4,10 @@
 
 ## INTRODUCCIÓN
 
+Se podría definir como: Grupo **lógico** de dispositivos que pertenecerán a una misma subred IP y formarán un **[dominio de difusión](./vocabulario.md#DIFUSIÓN DE DOMINIO)**.
+
+==Por ejemplo==: Una VLAN tendrá dispositivos que pertenecen a un grupo lógico o departamento de una empresa.
+
 Las VLANs se configuran siempre en los SWITCHES.
 
 Estándar que define las VLANs: **IEEE 802.1q.**
@@ -11,6 +15,12 @@ Estándar que define las VLANs: **IEEE 802.1q.**
 ### **FUNCIONES PRINCIPALES**
 - Separar subredes IPv4
 - Separar redes físicas diferentes
+
+### **CARACTERÍSTICAS**
+
+- La VLAN a la que pertenecerá un equipo y viene determinada por la configuración del **puerto del siwitch** al que se conecte.
+- Cada VLAN **debe** pertenecer a una subred IP
+- Cada VLAN **define** un dominio de difusión
 
 ## REDES SEGMENTADAS CON ==ROUTERS==
 
@@ -40,7 +50,7 @@ Estándar que define las VLANs: **IEEE 802.1q.**
 >![](img/vlansSegmentacion.png)
 >
 >- Los **switches** dan acceso a la rede a los equipos finales, y segmentan la red en subredes lógicas
->- La ubicación física de un equipo **NO IMPORTA**, porque no condiciona su pertenencia a una determinada subred lógica
+>- La ubicación fís´ica de un equipo **NO IMPORTA**, porque no condiciona su pertenencia a una determinada subred lógica
 >- El router r6 controlará la conectividad entre las subredes lógicas
 
 

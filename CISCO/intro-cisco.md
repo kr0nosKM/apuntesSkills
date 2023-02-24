@@ -8,13 +8,13 @@ En este apartado explicaré todo lo referente al apartado de CISCO, aunque en es
 
 - CONFIGURACIÓN DE SWITCHES Y ROUTERS USANDO **IOS**
 - TIPOS DE CABLE: Directo, Cruzado, Crossover, etc.
-- SWITCHING ETHERNET: Dirección MAC, tabla MAC, métodos de reenvío del switch
+- SWITCHING ETHERNET: Dirección MAC, tabla MAC (cam), métodos de reenvío del switch
 - DIRECCIONAMIENTO IPv4 e IPv6: Asignación de direcciones, configuración de interfaces, subnetting de longitud fija y variable
 - Protocolo ARP
 - Capa de transporte: Direccionamiento de puertos, segmentos
 - SEGURIDAD BÁSICA de switch y router: Configuración y encriptación de contraseñas, SSH
 - [VLAN](VLAN.md): Definición, configuración, enlaces troncales, enrutamiento inter-VLAN, DTP
-- STP así como sus variantes, PVST+, RSTP, PVST+ rápido
+- [STP](STP.md) así como sus variantes, PVST+, RSTP, PVST+ rápido
 - EtherChannel: Configuración y verificación, PAgP, LACP
 - DHCPv4: configuración de cliente y router como servidor.
 - DHCPv6: SLAAC y configuración router como servidor.
