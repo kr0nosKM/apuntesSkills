@@ -4,7 +4,7 @@
 
 ## INTRODUCCIÓN
 
-Se podría definir como: Grupo **lógico** de dispositivos que pertenecerán a una misma subred IP y formarán un **[dominio de difusión](vocabulario.md#DIFUSIÓN DE DOMINIO)**.
+Se podría definir como: Grupo **lógico** de dispositivos que pertenecerán a una misma subred IP y formarán un **[dominio de difusión](vocabulario.md#DIFUSIÓN)**.
 
 ==Por ejemplo==: Una VLAN tendrá dispositivos que pertenecen a un grupo lógico o departamento de una empresa.
 
