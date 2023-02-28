@@ -10,7 +10,7 @@ Se podría definir como: Grupo **lógico** de dispositivos que pertenecerán a u
 
 Las VLANs se configuran siempre en los SWITCHES.
 
-Estándar que define las VLANs: **IEEE 802.1q.**
+Estándar que define las VLANs: IEEE 802 __.1q__
 
 ### **FUNCIONES PRINCIPALES**
 - Separar subredes IPv4
@@ -75,6 +75,7 @@ Estándar que define las VLANs: **IEEE 802.1q.**
 - Peticiones **BROADCAST**:
 	- Cuando llega por el puerto troncal, no se hace nigún cambio en la PDU
 	- La PDU es reenviada por todos los puertos asociados a la VLAN de la PDU, de acceso y troncales que estén asociados o permital la VLAN de la pdu
+- **VLANs NATIVAS**
 
 
 
