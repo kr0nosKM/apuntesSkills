@@ -18,7 +18,7 @@ PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 - Configuración de red
 - Acceso remoto (SSH)
 - NAT
-- Firewall ([nftables](SERVICES/NFTABLES/NFTABLES.md))
+- Firewall ([nftables](NFTABLES.md))
 - [DHCP](SERVICES/DHCP/THEORY/DHCP.md)
 - [DNS](SERVICES/DNS/THEORY/DNS.md)
 - HTTP (apache2/nginx)
@@ -27,7 +27,7 @@ PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 - Archivos Compartidos (SAMBA)
 - LDAP (openldap/slapd)
 - Backup (rsync)
-- Fail2Ban
+- [Fail2Ban](SERVICES/FIREWALL/FAIL2BAN.md)
 - Scripting (Shell Scripting)
 - [Crontab](SERVICES/CRONTAB/CRONTAB.md)
 
