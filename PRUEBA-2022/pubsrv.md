@@ -48,7 +48,7 @@ iface ens18 inet static
 2. **CREACIÓN DEL CERTIFICADO AUTOFIRMADO DE LA CA ROOT**
 	1. COMANDO UTILIZADO EN LA PRÁCTICA
 		1. `openssl req -x509 -new -nodes -key /etc/ssl/private/rootCA.key -subj "/C=ES/O=WSC/CN=WSC Root CA" -sha256 -days 365 -out /etc/ssl/certs/rootCA.crt`
-	2. EXPLICACIÓN:
+	2. <u>EXPLICACIÓN</u>:
 		1. `req`: Indicamos que queremos utilizar una función de openssl que gestiona las peticiones de certificados (requests) y también tiene una utilidad de generar certificados.
 		2. `-x509`: Queremos utilizar el estándar X.509 el cual especifica una serie de terminos (pej. algoritmos, sintaxis, etc.)
 		3. `-new`: 
