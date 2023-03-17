@@ -12,9 +12,9 @@ PDF:  [PDF-ANTECEDENTES](asir-desc-tecnica.pdf)
 
 ## CONFIGURACIÓN EN LINUX SERVER
 - Configuración del sistema
-- RAID
+- [RAID](SERVICES/RAID/RAID.md)
 - LVM
-- Cifrado de disco
+- [Cifrado de disco](SERVICES/CIFRADO-DISCOS/CRYPTSETUP.md)
 - Configuración de red
 - Acceso remoto (SSH)
 - NAT
