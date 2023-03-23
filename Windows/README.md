@@ -5,6 +5,7 @@
 - [Añadir otro DC a un dominio](./bdc.md)
 - [Añadir un equipo Linux a AD](./linux.md)
 - [Distributed File System - DFS](./dfs.md)
+- [Windows Server Backup -WSB](./backups.md)
 - Monitorización del sistema
   - [Supervisión del sistema](./supervision-win.md)
   - [Auditoría](./auditoria-win.md)
