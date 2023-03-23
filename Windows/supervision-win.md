@@ -131,7 +131,7 @@ Por defecto utiliza el puerto 6516 pero podemos elegir cualquier otro. Al abrirl
 
 Al entrar a una máquina podemos ver información de la misma, parecido a como lo muestra el _Administrador del servidor_:
 
-![WAC- Información general](./WAC-general.png)
+![WAC- Información general](./media/WAC-general.png)
 
 En la parte izquierda tenemos el menú. Algunas opciones importantes son:
 - **Almacenamiento**: muestra los discos y volúmenes del equipo
