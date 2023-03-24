@@ -45,16 +45,12 @@ Si cualquier usuario de nuestro dominio quiere solicitar un certificado puede ha
 ![Solicitar certificado](./media/CA-04-solicitar.png)
 
 Si queremos crear una directiva para desplegar certificados para todos los equipos del dominio lo que haremos es: 
-1.       Desde un DC abrimos el `Administrador de directivas de grupo`
-2.       Desplegamos la rama del dominio, una vez abierta pulsamos botón derecho sobre él y elegimos Create a GPO in this Domain and Link it here. Nos pide el nombre de esta GPO, le damos el que queramos.
-3.       Una vez creado la debemos modificar, botón derecho sobre ella y elegimos Edit.
-4.       Una vez en la ventana de edición vamos a Computer Configuration / Policies / Windows Settings / Security Settings / Public Key Policies.
-5.       Botón derecho sobre “Certificate Services Client – Auto-Enrollment”, propiedadesEn Configuration mode le decimos Enabled y marcamos las dos opciones de renovación y actualización.
-6.       Pulsamos OK y cerramos el editor de la GPO.
-7.       Por defecto las políticas se filtran por el grupo Aunthenticated Users, en nuestro caso es válido ya que este incluye a todos los ordenadores del dominio. En el caso que queramos filtrar por los equipos que pertenezcan a un determinado grupo, se elimina el por defecto y se le añade el deseado.
-8.     El siguiente paso no es obligado pero si recomendado para que la preferencia de esta GPO supere a la Default Domain. Seleccionamos el dominio, en la parte derecha, seleccionamos nuestra GPO y pulsamos sobre la flecha hacia arriba para subir el nivel.
-9.       Después de esto tendremos que la GPO de Autoenrollment es la primera que se ejecutará.En el momento que se ejecute la política se le emitirá un certificado de máquina al igual que se le instalará como entidad de confianza la CA que lo emite.
-10.   Ahora esperamos un poco a que se apliquen las políticas de los equipos (o ejecutamos `gpupdate /force`) y, en la entidad certificadora, veremos cómo se van desplegando los certificados a nuestros equipos de una forma trasparente.
+1. Desde un DC abrimos el `Administrador de directivas de grupo`
+2. Creamos una nueva GPO (la aplicaremos a todo el dominio o a los equipos que queramos) y la editamos desde `Configuración de equipo -> Directivas -> Configuración de seguridad -> Directivas de clave pública`.
+5. Botón derecho sobre “Servicios de Certificado de cliente – Autoinscripción”, la **habilitamos** y marcamos las dos opciones de renovación y actualización.
+7. Por defecto las políticas se filtran por el grupo _Usuarios Autenticados_, en nuestro caso es válido ya que este incluye a todos los ordenadores del dominio. En el caso que queramos filtrar por los equipos que pertenezcan a un determinado grupo, se elimina el por defecto y se le añade el deseado.
+8. El siguiente paso no es obligado pero si recomendado para que la preferencia de esta GPO supere a la Default Domain. Seleccionamos el dominio, en la parte derecha, seleccionamos nuestra GPO y pulsamos sobre la flecha hacia arriba para subir el nivel. Con esto nuestra GPO es la primera que se ejecutará. En el momento que se ejecute la política se le emitirá un certificado de máquina al igual que se le instalará como entidad de confianza la CA que lo emite.
+10. Ahora esperamos un poco a que se apliquen las políticas de los equipos (o ejecutamos `gpupdate /force`) y, en la entidad certificadora, veremos cómo se van desplegando los certificados a nuestros equipos de una forma trasparente.
 
 ![Certificados emitidos](./media/CA-05-certEmitidos.png)
 
